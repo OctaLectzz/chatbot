@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -21,16 +21,23 @@
 	<!-- Bootstrap JS -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 
-	<title>Chatbot</title>
+	<title>Traffic Pengunjung</title>
 </head>
 
-<body id="page-top">
+<body>
+	<!-- Header -->
+	<?php include 'layouts/header.php'; ?>
 
-	<!-- Landing Page -->
-	<?php include 'landing.php'; ?>
+	<div class="container" style="padding: 200px; margin-bottom: 400px; background-color: aliceblue;">
+		<h1>Jumlah Pengunjung</h1>
+		<p>Jumlah kunjungan: <?php echo $visit['visit_count']; ?></p>
+	</div>
 
 	<!-- Chatbot -->
 	<?php include 'chatbot.php'; ?>
+
+	<!-- Footer -->
+	<?php include 'layouts/footer.php'; ?>
 </body>
 
 </html>
