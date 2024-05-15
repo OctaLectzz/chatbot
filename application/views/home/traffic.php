@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- Bootstrap CSS -->
-	<link href="http://localhost/chatbot/assets/css/styles.css" rel="stylesheet" />
+	<link href="<?php $base_url ?>assets/css/styles.css" rel="stylesheet" />
 
 	<!-- Font Awesome -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -15,7 +15,7 @@
 	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 
 	<!-- Core theme JS-->
-	<script src="http://localhost/chatbot/js/scripts.js"></script>
+	<script src="<?php $base_url ?>js/scripts.js"></script>
 	<script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 
 	<!-- Bootstrap JS -->

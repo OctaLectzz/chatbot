@@ -1,6 +1,6 @@
 <head>
 	<!-- Chatbot CSS -->
-	<link href="http://localhost/chatbot/assets/css/chat.css" rel="stylesheet" />
+	<link href="<?php $base_url ?>assets/css/chat.css" rel="stylesheet" />
 </head>
 
 <div class="chatbot">
@@ -36,7 +36,7 @@
 			$("#form").append($msg);
 
 			$.ajax({
-				url: 'http://localhost/chatbot/home/chatbot',
+				url: '<?php $base_url ?>home/chatbot',
 				type: 'POST',
 				data: 'isi_pesan=' + $pesan,
 				success: function(result) {
